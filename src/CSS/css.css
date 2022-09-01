@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Charis+SIL:wght@700&family=Finlandica:wght@500&family=Lobster&family=Oswald:wght@300;400&family=Quicksand:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(247, 193, 172);
+}
+#root .IntroTop {
+  height: 10%;
+  width: 100%;
+}
+#root .IntroTop .Title {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: "Bebas Neue", cursive;
+}
+#root .IntroBottom {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+}
+#root .Intro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+#root .Intro .Quote {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 33%;
+}
+#root .Intro form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  width: 33%;
+}
+#root .Intro form input {
+  width: 75%;
+  height: 10%;
+}
+#root .Intro .Recipes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  width: 100%;
+}
+#root .Intro .Recipes div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50%;
+  width: 20%;
+}
+#root .Intro .Recipes div::before {
+  position: absolute;
+  content: " ";
+  background-color: white;
+  height: 97.5%;
+  width: 80%;
+  opacity: 0.6;
+}
+#root .Intro .Recipes div img {
+  height: 70%;
+  z-index: 1;
+}
+#root .Intro .Recipes div h2 {
+  font-size: 0.75em;
+  width: 80%;
+  text-align: center;
+  height: 20%;
+  z-index: 2;
+}
+#root .Choosen {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(247, 193, 172);
+}
+#root .Choosen .Foods {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 193, 172);
+}
+#root .Choosen .Foods h1 {
+  text-align: center;
+}
+#root .Choosen .Foods .Title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(247, 193, 172);
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#root .Choosen .Foods .Title button {
+  height: 50px;
+  width: 50px;
+}
+#root .Choosen .Foods .Title h1 {
+  text-align: center;
+  margin-left: 33%;
+}
+#root .Choosen .Foods .Food {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+}
+@media (width: 800px) {
+  #root .Choosen .Foods .Food {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#root .Choosen .Foods .Food img {
+  height: 250px;
+  width: 300px;
+}
+#root .Choosen .Foods .Food .Ingredients {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+}
+@media (max-width: 800px) {
+  #root .Choosen .Foods .Food .Ingredients {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+#root .Choosen .Foods .Food .Ingredients div {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+#root .Choosen .Foods .Food .Ingredients div h4 {
+  text-align: center;
+  width: 40%;
+}
+#root .Choosen .Foods .Food .Ingredients div .Original {
+  width: 50px;
+  height: 80px;
+}
+#root .Choosen .Instructions {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 66vw;
+}
+#root .Choosen .Instructions .Instruction {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+#root .Choosen .Instructions .Instruction .Step {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#root .Choosen .Instructions .Instruction .Step::before {
+  position: absolute;
+  content: " ";
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+#root .Choosen .Instructions .Instruction .Step h3 {
+  position: relative;
+  font-size: 33px;
+  text-align: center;
+  margin-right: 5%;
+  width: 10%;
+  z-index: 1;
+}
+#root .Choosen .Instructions .Instruction .Step h3::before {
+  position: absolute;
+  content: " ";
+  background-color: white;
+  height: 150%;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+#root .Choosen .Instructions .Instruction .Step p {
+  width: 85%;
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 1;
+}
+#root .Choosen .Instructions .Instruction .Equipment {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 33%;
+}/*# sourceMappingURL=css.css.map */
