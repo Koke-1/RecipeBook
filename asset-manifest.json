@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Koke-1/RecipeBook.git/static/css/main.84c753c2.css",
+    "main.js": "/Koke-1/RecipeBook.git/static/js/main.3a091ff1.js",
+    "index.html": "/Koke-1/RecipeBook.git/index.html",
+    "main.84c753c2.css.map": "/Koke-1/RecipeBook.git/static/css/main.84c753c2.css.map",
+    "main.3a091ff1.js.map": "/Koke-1/RecipeBook.git/static/js/main.3a091ff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84c753c2.css",
+    "static/js/main.3a091ff1.js"
+  ]
+}
